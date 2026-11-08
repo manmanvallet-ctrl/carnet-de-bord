@@ -4,8 +4,8 @@ Chaque palier = des notions + un projet concret qui les met en pratique.
 
 ## Palier 1 — Git et GitHub
 - [x] Créer mon compte GitHub
-- [ ] Créer mon premier dépôt (ce carnet)
-- [ ] Comprendre commit, push, pull, historique
+- [x] Créer mes premiers dépôts : `carnet-de-bord` (public) et `budget-familial` (privé)
+- [ ] Comprendre commit, push, pull, historique *(commit et push vus le 8/11)*
 - [ ] Modifier un fichier directement sur GitHub et voir le commit apparaître
 
 ## Palier 2 — Comment marche une page web

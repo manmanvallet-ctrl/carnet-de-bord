@@ -26,6 +26,30 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Markdown (`.md`)** — Format de texte simple avec quelques symboles pour la mise en forme : `#` pour un titre, `**gras**`, `- ` pour une liste. GitHub le transforme en page lisible.
 
+**Cloner (clone)** — Télécharger une copie complète d'un dépôt distant (fichiers + historique) sur sa machine.
+
+**origin** — Le surnom par défaut du dépôt distant. `git push origin main` = « envoie la branche main vers origin ».
+
+**Zone de préparation (staging area)** — L'étape entre « j'ai modifié un fichier » et « je fais un commit ». `git add` y place les fichiers choisis ; `git commit` photographie ce qu'elle contient.
+
+**Hash** — L'empreinte unique d'un commit (ex. `f866ff3…`), calculée à partir de son contenu. Un seul caractère changé = une empreinte totalement différente.
+
+**GitHub App** — Un programme à qui on accorde des droits précis sur des dépôts choisis, révocables à tout moment. Plus sûr que de partager son mot de passe.
+
+**Principe du moindre privilège** — Règle de sécurité : ne donner à chacun (personne ou programme) que les droits strictement nécessaires.
+
+## Le web
+
+**HTML** — La structure d'une page : des balises (`<div>`, `<button>`…) qui décrivent les blocs.
+
+**CSS** — L'apparence : couleurs, tailles, mise en page. Les *variables CSS* (`--accent`) stockent une valeur réutilisée partout.
+
+**JavaScript** — Le comportement : calculs, réactions aux clics, lecture et écriture des données.
+
+**index.html** — Le fichier qu'un serveur web envoie par défaut quand on visite un site sans préciser de page.
+
+**Backend** — La partie d'une application qui tourne sur un serveur (base de données, calculs cachés), par opposition au *frontend* qui tourne dans le navigateur.
+
 ## Serveurs et Internet
 
 **VPS (Virtual Private Server)** — Un ordinateur loué dans un centre de données, allumé en permanence et joignable depuis Internet. « Virtuel » : une grosse machine physique est découpée en plusieurs machines indépendantes. J'en suis l'administratrice.
