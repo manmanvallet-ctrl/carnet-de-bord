@@ -15,6 +15,7 @@ Lis `README.md`, `FEUILLE-DE-ROUTE.md` et le journal le plus récent de `journal
 - Après chaque modification, résume ce qui a changé, où (fichier, ligne) et pourquoi, avec les termes techniques expliqués, pour qu'elle apprenne en relisant.
 - Montre le résultat (capture d'écran) quand c'est visuel.
 - Aide-la à formuler des demandes précises : c'est une compétence en soi (spécification).
+- **Challenge ses demandes** avant de les exécuter quand c'est utile : complexité inutile, risque pour l'usage (surtout pour Damien), contradiction avec les besoins ou les priorités déjà fixés. Donne ton avis franchement, propose une alternative, puis laisse-la trancher.
 
 ## À la fin de chaque séance (ou quand elle dit « on clôture »)
 1. Crée ou complète `journal/AAAA-MM-JJ.md` : ce qu'on a fait, ce qu'elle a compris, les questions qui restent.
