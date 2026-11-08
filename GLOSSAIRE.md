@@ -38,6 +38,22 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Principe du moindre privilège** — Règle de sécurité : ne donner à chacun (personne ou programme) que les droits strictement nécessaires.
 
+**Fast-forward (avance rapide)** — Quand on fait un pull et que seul l'autre côté a avancé : Git déplace simplement ma copie jusqu'au dernier commit, sans rien fusionner.
+
+**Conflit (merge conflict)** — Quand deux personnes ont modifié les mêmes lignes d'un fichier chacune de son côté. Git ne peut pas deviner quelle version garder, il demande à un humain de trancher.
+
+**CLAUDE.md** — Fichier de consignes placé à la racine d'un dépôt. Claude Code le lit automatiquement au début de chaque session où le dépôt est attaché.
+
+## Open source
+
+**Open source** — Du code publié pour que tout le monde puisse le lire, l'utiliser et souvent le modifier, selon les conditions de sa licence.
+
+**Licence** — Le contrat qui dit ce qu'on a le droit de faire avec un code (fichier `LICENSE` du dépôt). *MIT* et *Apache 2.0* : réutilisation libre, même commerciale, en gardant la mention de l'auteur. *GPL* : si je distribue un logiciel qui l'intègre, je dois publier mon code sous GPL aussi. **Pas de licence = tous droits réservés** : je peux lire et apprendre, pas copier.
+
+**Star (étoile)** — Un « j'aime » sur un dépôt GitHub. Un bon indicateur de popularité, pas une garantie de qualité.
+
+**Fork** — Ma copie personnelle du dépôt de quelqu'un d'autre, sur mon compte GitHub, que je peux modifier librement.
+
 ## Le web
 
 **HTML** — La structure d'une page : des balises (`<div>`, `<button>`…) qui décrivent les blocs.

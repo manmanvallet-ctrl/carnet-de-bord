@@ -12,6 +12,12 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 - **Objectif :** des compétences monétisables (développement web, mise en ligne, intégration de l'IA).
 - **Matériel prévu :** un VPS chez OVH et un nom de domaine, achetés le jour où un projet sera prêt à être mis en ligne.
 
+## Mes projets
+
+| Projet | Visibilité | En une phrase |
+|---|---|---|
+| [budget-familial](https://github.com/manmanvallet-ctrl/budget-familial) | privé | L'appli de budget du foyer (HTML, CSS, JavaScript), fil rouge du palier 2 |
+
 ## Organisation du carnet
 
 | Fichier | À quoi il sert |
