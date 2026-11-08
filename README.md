@@ -8,7 +8,7 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 
 ## Où j'en suis
 
-- **Niveau actuel :** débutante, je découvre Git et GitHub.
+- **Niveau actuel :** débutante. Git et GitHub acquis ; démarche produit (besoins, user stories, maquette, benchmark) pratiquée sur un vrai projet.
 - **Objectif :** des compétences monétisables (développement web, mise en ligne, intégration de l'IA).
 - **Matériel prévu :** un VPS chez OVH et un nom de domaine, achetés le jour où un projet sera prêt à être mis en ligne.
 
@@ -16,7 +16,7 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 
 | Projet | Visibilité | En une phrase |
 |---|---|---|
-| [budget-familial](https://github.com/manmanvallet-ctrl/budget-familial) | privé | L'appli de budget du foyer (HTML, CSS, JavaScript), fil rouge du palier 2 |
+| [budget-familial](https://github.com/manmanvallet-ctrl/budget-familial) | privé | Appli de gestion budgétaire de couple avec coach IA. Besoins, benchmark et vision dans le dépôt ; maquette V1 : https://claude.ai/artifact/PQAGZTHAUwFoENgmGWWkTY |
 
 ## Organisation du carnet
 

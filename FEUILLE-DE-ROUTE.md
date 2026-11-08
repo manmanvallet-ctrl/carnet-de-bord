@@ -5,15 +5,25 @@ Chaque palier = des notions + un projet concret qui les met en pratique.
 ## Palier 1 — Git et GitHub
 - [x] Créer mon compte GitHub
 - [x] Créer mes premiers dépôts : `carnet-de-bord` (public) et `budget-familial` (privé)
-- [ ] Comprendre commit, push, pull, historique *(commit et push vus le 8/11)*
-- [ ] Modifier un fichier directement sur GitHub et voir le commit apparaître
+- [x] Comprendre commit, push, pull, historique
+- [x] Modifier un fichier directement sur GitHub et voir le commit apparaître
 
 ## Palier 2 — Comment marche une page web
 Projet fil rouge : décortiquer mon artefact *Budget du foyer*.
 - [ ] HTML : la structure (le squelette)
 - [ ] CSS : l'apparence (la peau, les couleurs, la mise en page)
 - [ ] JavaScript : le comportement (les calculs, les boutons, les données)
-- [ ] Où et comment les données sont enregistrées
+- [ ] Où et comment les données sont enregistrées *(localStorage et sauvegarde JSON vus le 8/11)*
+
+## Compétences produit (en parallèle)
+Projet fil rouge : la refonte de l'appli *Budget du foyer*.
+- [x] Phase de découverte : recueillir les besoins par questions-réponses
+- [x] User stories et priorisation MoSCoW
+- [x] Découper en versions livrables (MVP, feuille de route V1 / V2 / V3)
+- [x] Maquette cliquable et revue avec un utilisateur (Damien)
+- [x] Benchmark du marché et positionnement
+- [ ] Figer la maquette et écrire le plan de développement
+- [ ] Développer la V1 par petites livraisons
 
 ## Palier 3 — La ligne de commande et Linux
 - [ ] Le terminal : naviguer, créer, lire des fichiers

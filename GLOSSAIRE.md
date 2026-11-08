@@ -44,6 +44,8 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **CLAUDE.md** — Fichier de consignes placé à la racine d'un dépôt. Claude Code le lit automatiquement au début de chaque session où le dépôt est attaché.
 
+**Diff** — La vue « avant / après » d'un commit : lignes retirées en rouge, ajoutées en vert. L'outil n°1 pour relire un changement.
+
 ## Open source
 
 **Open source** — Du code publié pour que tout le monde puisse le lire, l'utiliser et souvent le modifier, selon les conditions de sa licence.
@@ -64,7 +66,93 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **index.html** — Le fichier qu'un serveur web envoie par défaut quand on visite un site sans préciser de page.
 
+**Tableau (array)** — Une liste de valeurs entre crochets en JavaScript, ex. `["rose","bleu"]`. Le code peut la parcourir élément par élément.
+
+**Hexadécimal (couleur)** — Une couleur écrite `#RRVVBB` : deux chiffres de 00 à ff pour le rouge, le vert et le bleu. Ex. `#1f8a4c`.
+
+**localStorage** — Un petit espace de stockage dans le navigateur. Les données restent sur cet appareil, dans ce navigateur, et disparaissent si on efface les données du site.
+
+**Debounce** — Attendre un court instant (ici 350 ms) avant d'enregistrer, pour ne pas écrire à chaque frappe. Il faut penser à tout enregistrer quand on quitte la page.
+
+**Modèle de données** — La façon dont l'information est organisée (ex. une poche d'épargne = un nom, un bénéficiaire, des sources avec leur montant). Tout le reste du code en dépend.
+
+**Migration** — Du code qui convertit les données existantes vers un nouveau modèle de données, pour qu'une mise à jour ne casse rien.
+
+**Adaptateur (adapter)** — Un morceau de code qui imite une interface existante (ici la base de l'artefact) pour en remplacer une autre (le localStorage) sans toucher au reste du code.
+
+**Production / développement** — *Production* : la version utilisée pour de vrai, avec les vraies données. *Développement* : une copie sur laquelle on peut tout casser sans risque.
+
+**Test automatisé** — Un script qui utilise l'appli comme un humain (ouvrir, cliquer, vérifier) et signale les erreurs. Ici avec **Playwright**, qui pilote un navigateur sans fenêtre (*headless*).
+
 **Backend** — La partie d'une application qui tourne sur un serveur (base de données, calculs cachés), par opposition au *frontend* qui tourne dans le navigateur.
+
+**Frontend** — La partie d'une application qui tourne dans le navigateur : écrans, boutons, calculs affichés.
+
+**API** — Le guichet par lequel un programme demande un service à un autre (ex. l'appli demande une analyse à une IA).
+
+**Clé d'API** — Le badge qui identifie et facture celui qui appelle une API. Elle doit rester sur un serveur, jamais dans le code d'une page.
+
+**Authentification / autorisation** — *Authentification* : prouver qui on est (identifiant, mot de passe). *Autorisation* : décider ce que chacun a le droit de voir ou faire.
+
+**Local-first** — Une architecture où les données vivent d'abord sur l'appareil, puis se synchronisent avec un serveur (ex. Actual Budget). C'est notre plan V1 → V2.
+
+**Agrégation bancaire (DSP2)** — Récupérer automatiquement ses opérations bancaires, avec son accord, via un prestataire agréé. Encadré en Europe par la directive DSP2.
+
+**Prompt système** — Les instructions permanentes données à une IA pour fixer son rôle et son ton (ex. « bienveillant mais exigeant, sans être niais »).
+
+## Conception produit
+
+**Discovery (phase de découverte)** — Comprendre le problème à résoudre avant de construire, par des questions, de l'observation, des chiffres.
+
+**Spécification** — La description précise de ce qu'on veut : quoi, où, pour qui, quel résultat attendu.
+
+**Product owner (chef de produit)** — La personne qui décide de ce qu'on construit et dans quel ordre, et qui valide le résultat.
+
+**User story (récit utilisateur)** — Un besoin écrit sous la forme « En tant que…, je veux…, afin de… ».
+
+**MoSCoW** — Une méthode de priorisation : *Must have* (indispensable), *Should have* (important), *Could have* (bonus), *Won't have* (pas maintenant).
+
+**MVP (Minimum Viable Product)** — La plus petite version utile d'un produit, livrée vite pour apprendre des retours.
+
+**Feuille de route produit (roadmap)** — Le découpage d'un produit en versions successives, chacune utilisable seule.
+
+**Persona** — Le profil type d'utilisateur pour qui on conçoit (ici : Damien, qui fuit le sujet de l'argent).
+
+**Wireframe / maquette / prototype** — Une représentation des écrans avant le code. *Prototype cliquable* : une maquette où les boutons fonctionnent.
+
+**Parcours utilisateur (user flow)** — L'enchaînement d'étapes pour accomplir une tâche (ex. créer un projet en 3 étapes).
+
+**Architecture de l'information** — La façon dont les écrans et les contenus sont découpés et reliés entre eux.
+
+**UX (expérience utilisateur)** — Tout ce que ressent l'utilisateur en se servant d'un produit : facilité, clarté, plaisir.
+
+**UX writing** — La rédaction des textes d'une interface. Un bon libellé dit à l'utilisateur ce qu'il doit faire, sans jargon.
+
+**Mobile first** — Concevoir d'abord pour le téléphone, puis adapter au grand écran.
+
+**Gestion par exception** — Traiter automatiquement ce qui est sûr et ne montrer à l'humain que ce qui demande une décision.
+
+**Réconciliation (rapprochement)** — Comparer deux sources de données (ses saisies et le relevé bancaire) pour repérer les écarts.
+
+**Benchmark** — L'analyse de ce que font les concurrents, pour confirmer ses choix, emprunter des idées et se différencier.
+
+## Finances personnelles
+
+**Agios** — Les intérêts et frais que la banque facture quand on est à découvert.
+
+**Épargne de précaution (matelas de sécurité)** — De l'argent disponible tout de suite pour absorber un imprévu, souvent 3 à 6 mois de dépenses.
+
+**Effet boule de neige** — Rembourser une dette fait baisser les intérêts, et l'argent économisé accélère le remboursement suivant.
+
+**Enveloppe** — Une somme mise de côté pour un usage précis (cadeaux, plaisir).
+
+**Provision** — Mettre de côté chaque mois 1/12 d'une dépense annuelle (taxe foncière, rentrée).
+
+**Budget base zéro** — Chaque euro reçoit une mission : à la fin, aucun euro sans affectation.
+
+**Jours d'avance** — Combien de jours de dépenses l'argent déjà sur le compte peut couvrir. Négatif = on vit sur le découvert.
+
+**CIF / AMF** — En France, donner des conseils d'investissement personnalisés exige un statut (CIF, conseiller en investissement financier), contrôlé par l'AMF (Autorité des marchés financiers).
 
 ## Serveurs et Internet
 
