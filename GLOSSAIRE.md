@@ -100,6 +100,38 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Prompt système** — Les instructions permanentes données à une IA pour fixer son rôle et son ton (ex. « bienveillant mais exigeant, sans être niais »).
 
+## Développement (9 novembre)
+
+**Framework** — Une boîte à outils toute prête pour construire une appli (React, Vue…). On a choisi de s'en passer pour l'instant, pour comprendre chaque ligne.
+
+**Module (import / export)** — Un fichier JavaScript qui a un rôle précis et n'expose que ce qui sert aux autres (`export`) ; les autres fichiers le récupèrent avec `import`.
+
+**Séparation des responsabilités** — Chaque partie du code fait une seule chose : les calculs d'un côté, l'affichage de l'autre, l'enregistrement ailleurs.
+
+**Fonction pure** — Une fonction qui calcule un résultat à partir de ce qu'on lui donne, sans rien lire ni modifier ailleurs. Facile à tester.
+
+**Test unitaire** — Un petit programme qui vérifie qu'une fonction donne le bon résultat sur des cas connus (`node --test`).
+
+**Test de bout en bout (end-to-end)** — Un robot qui utilise l'appli dans un vrai navigateur, comme une personne, et vérifie chaque étape.
+
+**Asynchrone** — Qui se produit « juste après » et non immédiatement (ex. le changement d'écran après un clic). Un test qui n'attend pas tombe dans une **race condition** (une « course »).
+
+**Sélecteur CSS** — La partie d'une règle CSS qui dit à quels éléments elle s'applique (`.cat > input + span`). Trop large, il touche des éléments imprévus.
+
+**Toast** — Un message bref qui apparaît en bas de l'écran puis disparaît seul (« Dépense enregistrée · Annuler »).
+
+**Espace insécable** — Une espace qui empêche de couper la ligne entre deux mots (« 86 € »). Invisible, mais différente d'une espace normale pour un ordinateur.
+
+**Constante nommée** — Une valeur fixe rangée à un seul endroit sous un nom explicite (`JOUR_PROJECTION_FIABLE = 5`), plutôt qu'écrite en dur partout.
+
+**DRY (Don't Repeat Yourself)** — Ne pas copier deux fois le même code : on le range à un endroit et on le réutilise.
+
+**Langage commun (ubiquitous language)** — Un mot par notion, le même dans le code et à l'écran.
+
+**Feedback (retour utilisateur)** — Ce que dit une vraie utilisatrice en se servant du produit : indispensable, même quand tous les tests passent.
+
+**Onboarding progressif** — Poser le minimum de questions au départ, puis les autres au moment où elles servent.
+
 ## Conception produit
 
 **Discovery (phase de découverte)** — Comprendre le problème à résoudre avant de construire, par des questions, de l'observation, des chiffres.

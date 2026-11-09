@@ -13,7 +13,7 @@ Projet fil rouge : décortiquer mon artefact *Budget du foyer*.
 - [ ] HTML : la structure (le squelette)
 - [ ] CSS : l'apparence (la peau, les couleurs, la mise en page)
 - [ ] JavaScript : le comportement (les calculs, les boutons, les données)
-- [ ] Où et comment les données sont enregistrées *(localStorage et sauvegarde JSON vus le 8/11)*
+- [x] Où et comment les données sont enregistrées (localStorage, versions et migrations)
 
 ## Compétences produit (en parallèle)
 Projet fil rouge : la refonte de l'appli *Budget du foyer*.
@@ -22,8 +22,9 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [x] Découper en versions livrables (MVP, feuille de route V1 / V2 / V3)
 - [x] Maquette cliquable et revue avec un utilisateur (Damien)
 - [x] Benchmark du marché et positionnement
-- [ ] Figer la maquette et écrire le plan de développement
-- [ ] Développer la V1 par petites livraisons
+- [x] Figer la maquette et écrire le plan de développement
+- [ ] Développer la V1 par petites livraisons *(livraisons 1 à 3 faites le 9/11, sur 8)*
+- [x] Tester automatiquement (tests unitaires et test de parcours)
 
 ## Palier 3 — La ligne de commande et Linux
 - [ ] Le terminal : naviguer, créer, lire des fichiers
