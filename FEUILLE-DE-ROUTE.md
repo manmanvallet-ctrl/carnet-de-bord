@@ -23,7 +23,7 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [x] Maquette cliquable et revue avec un utilisateur (Damien)
 - [x] Benchmark du marché et positionnement
 - [x] Figer la maquette et écrire le plan de développement
-- [ ] Développer la V1 par petites livraisons *(livraisons 1 à 4 faites le 9/11, sur 8)*
+- [ ] Développer la V1 par petites livraisons *(livraisons 1 à 5 faites le 9/11, sur 8)*
 - [x] Tester automatiquement (tests unitaires et test de parcours)
 
 ## Palier 3 — La ligne de commande et Linux
