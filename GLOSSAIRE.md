@@ -150,6 +150,10 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Période (cycle)** — Un intervalle de dates avec un début compris et une fin non comprise (du 28 octobre inclus au 28 novembre exclu). Le mois de paie n'est pas forcément le mois du calendrier.
 
+**Événement tactile (touchstart / touchend)** — Le signal que le navigateur envoie quand un doigt se pose sur l'écran, puis se lève. En comparant les deux positions, on reconnaît un balayage (swipe) : surtout horizontal et assez long.
+
+**Animation CSS (@keyframes)** — Une petite transition décrite dans la feuille de style : ici, le nouvel écran arrive en glissant de 40 pixels. Elle est désactivée si le téléphone demande moins d'animations (accessibilité).
+
 **optgroup** — Dans une liste déroulante HTML, un titre qui regroupe des choix (« Dépenses régulières », « Épargne »).
 
 **aria-pressed** — Un attribut d'accessibilité qui dit aux lecteurs d'écran qu'un bouton est « enfoncé » (le montant choisi parmi les pastilles).
