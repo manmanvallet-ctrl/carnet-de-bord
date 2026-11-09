@@ -146,6 +146,10 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Variable CSS locale** — Une variable CSS posée sur un seul élément (`style="--zero:40%"`) pour que la feuille de style s'en serve : ici, la place du zéro sur la jauge.
 
+**Affordance** — La capacité d'un écran à montrer de lui-même ce qu'on peut y faire. Une fonction cachée derrière un lien a une mauvaise affordance.
+
+**optgroup** — Dans une liste déroulante HTML, un titre qui regroupe des choix (« Dépenses régulières », « Épargne »).
+
 **aria-pressed** — Un attribut d'accessibilité qui dit aux lecteurs d'écran qu'un bouton est « enfoncé » (le montant choisi parmi les pastilles).
 
 ## Conception produit
