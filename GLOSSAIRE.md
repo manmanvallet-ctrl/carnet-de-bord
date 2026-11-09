@@ -130,6 +130,10 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Feedback (retour utilisateur)** — Ce que dit une vraie utilisatrice en se servant du produit : indispensable, même quand tous les tests passent.
 
+**Donnée dérivée** — Une valeur qu'on recalcule à partir d'autres données (le solde = versements − dépenses) plutôt que de l'enregistrer : toujours juste.
+
+**Placeholder** — Le texte d'exemple grisé dans un champ vide (« Ex. week-end à la mer ») : ce n'est pas une vraie valeur.
+
 **Onboarding progressif** — Poser le minimum de questions au départ, puis les autres au moment où elles servent.
 
 ## Conception produit
