@@ -26,3 +26,6 @@ Lis `README.md`, `FEUILLE-DE-ROUTE.md` et le journal le plus récent de `journal
 
 ## Ses projets
 Chaque projet a son propre dépôt (liste dans `README.md`). Ce carnet garde ce qu'elle apprend, pas le code.
+
+## Outils déjà essayés
+- **Taste Skill** (sites vitrines) : avant de construire une page vitrine, lis `notes/taste-skill.md` (quand l'utiliser, limites, marche à suivre en session cloud). Ne l'applique pas à *Budget du foyer*.

@@ -199,3 +199,18 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Nom de domaine** — Une adresse lisible par un humain (ex. `mon-site.fr`) qu'on achète pour une durée, en général un an renouvelable.
 
 **DNS (Domain Name System)** — L'annuaire mondial qui traduit un nom de domaine en adresse IP.
+
+## Agents et outils d'IA (10 novembre)
+
+**Skill (compétence d'agent)** — Un dossier de consignes et de scripts qu'on installe dans un agent de code. L'agent le charge quand la tâche correspond : c'est une façon de lui transmettre un savoir-faire réutilisable, au lieu de tout réexpliquer à chaque fois.
+
+**Hook** — Un script que l'outil lance tout seul à un moment précis (par exemple à la fin de chaque réponse). Puissant, donc à lire avant d'installer : il s'exécute sans qu'on le demande.
+
+**Proxy** — Un intermédiaire par lequel passent les connexions sortantes d'une machine. Il peut autoriser ou refuser un site : c'est lui qui bloquait Wikimedia pendant l'essai.
+
+**Site vitrine** — Un site qui présente une activité (qui, quoi, où, horaires, prix) sans être un outil : on le lit, on ne s'en sert pas comme d'une appli.
+
+**Linter** — Un programme qui relit du code ou du texte et signale les défauts selon des règles fixes. Il ne comprend pas le sens : celui de la skill ne connaît que les mots anglais.
+
+**WebP** — Un format d'image plus léger que le JPEG à qualité égale. Chaque fichier commence par un en-tête qui annonce sa taille ; s'il est faux, le navigateur refuse l'image.
+
