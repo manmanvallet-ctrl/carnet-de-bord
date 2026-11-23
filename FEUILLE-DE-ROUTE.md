@@ -35,6 +35,13 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [ ] Sécuriser le serveur (SSH, pare-feu, mises à jour)
 - [ ] Nom de domaine et DNS
 - [ ] HTTPS (le cadenas dans le navigateur)
+- [ ] Mise en conformité avant publication (à faire seulement quand un projet s'ouvre à d'autres que nous) :
+  - inventaire des données : ce que le site garde, où, et ce qu'il envoie à des tiers (c'est le point de départ du reste)
+  - mentions légales (loi LCEN) et politique de confidentialité qui décrit ce que fait vraiment le site (RGPD)
+  - traceurs (cookies, localStorage) : lesquels sont exemptés de consentement, lesquels demandent un bandeau
+  - accessibilité : contraste des couleurs, textes alternatifs, utilisable au clavier et au lecteur d'écran
+  - vérifier chaque point sur les sources officielles (cnil.fr, Légifrance), pas seulement auprès d'une IA
+  - *déjà fait sur budget-familial : polices hébergées dans l'appli, plus aucun envoi à Google (23/11)*
 - [ ] Mettre en ligne un premier projet
 
 ## Palier 5 — Intégrer l'IA
