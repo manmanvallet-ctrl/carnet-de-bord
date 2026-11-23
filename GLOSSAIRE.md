@@ -257,3 +257,13 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Zone tactile** — La surface qu'on peut toucher du doigt pour activer un bouton. 44 px de côté au minimum, sinon on rate la cible ou on touche le bouton d'à côté.
 
 **États d'un bouton** — Ses différentes apparences selon la situation : normal, survolé (souris dessus), appuyé, désactivé, avec le focus (sélectionné au clavier). Un bouton qui ne réagit pas paraît cassé.
+
+**Skill (Claude Code)** — Un dossier de consignes et de fichiers de référence que Claude consulte quand une tâche s'y prête, comme un classeur de fiches métier. UI UX Pro Max en est un : une base de styles, de palettes et de règles de design.
+
+**Revue UX (audit)** — Passer une interface en revue pour repérer ce qui gêne l'utilisateur. Une bonne revue mesure (tailles, contrastes, comportement sur petit écran) et classe les corrections par gravité, au lieu de donner des impressions.
+
+**Zoom automatique (iPhone)** — Safari sur iPhone agrandit toute la page dès qu'on touche un champ dont le texte fait moins de 16 px. D'où la règle : texte des champs de saisie à 16 px minimum.
+
+**Pseudo-élément (`::after`, `::before`)** — Un élément que le CSS ajoute à une balise sans toucher au HTML. Invisible, il sert ici à agrandir la zone tactile d'un bouton sans changer sa taille à l'écran.
+
+**Marqueurs de conflit** — Quand Git ne peut pas fusionner seul, il écrit les deux versions dans le fichier entre `<<<<<<<` (ma version), `=======` et `>>>>>>>` (l'autre version). Résoudre le conflit, c'est remplacer ce bloc par la version voulue, puis enregistrer un commit de fusion.
