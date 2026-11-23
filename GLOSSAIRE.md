@@ -199,3 +199,25 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Nom de domaine** — Une adresse lisible par un humain (ex. `mon-site.fr`) qu'on achète pour une durée, en général un an renouvelable.
 
 **DNS (Domain Name System)** — L'annuaire mondial qui traduit un nom de domaine en adresse IP.
+
+## Outils et collaboration (23 novembre)
+
+**Plugin** — Une extension qu'on ajoute à un logiciel pour lui donner de nouvelles capacités sans modifier le logiciel lui-même. Impeccable est un plugin de Claude Code : il apporte des consignes de design et des commandes comme `/impeccable polish`.
+
+**npm / npx** — *npm* est le grand catalogue public de programmes JavaScript (les « paquets ») et l'outil qui les installe. *npx* télécharge un paquet et l'exécute tout de suite : pratique, mais on lance du code qu'on n'a pas relu.
+
+**Binaire** — Un programme déjà traduit en langage machine. Il s'exécute directement, mais on ne peut pas le relire comme du texte : il faut faire confiance à sa provenance.
+
+**Empreinte (SHA-256)** — Une suite de caractères calculée à partir du contenu exact d'un fichier. Le moindre octet changé donne une empreinte totalement différente : la comparer à l'empreinte publiée prouve que le fichier n'a pas été modifié.
+
+**Pull request (demande de fusion)** — Sur GitHub, la proposition d'intégrer les commits d'une branche dans une autre (souvent `main`). Elle montre les changements ligne par ligne, permet d'en discuter, puis on clique sur « Merge » pour fusionner.
+
+**Fusion (merge)** — Réunir l'historique de deux branches. Si elles ont touché des fichiers différents, Git combine tout seul ; si elles ont modifié les mêmes lignes, il y a un conflit à trancher à la main.
+
+**Polish (passe de finition)** — Une relecture d'interface qui corrige les détails (alignements, états des boutons, contrastes) sans changer l'identité ni le fonctionnement. Le contraire d'une refonte.
+
+**Contraste** — L'écart de luminosité entre un texte et son fond, exprimé par un rapport (de 1 à 21). Les règles d'accessibilité demandent au moins 4,5 pour le texte courant, 3 pour les gros titres.
+
+**Zone tactile** — La surface qu'on peut toucher du doigt pour activer un bouton. 44 px de côté au minimum, sinon on rate la cible ou on touche le bouton d'à côté.
+
+**États d'un bouton** — Ses différentes apparences selon la situation : normal, survolé (souris dessus), appuyé, désactivé, avec le focus (sélectionné au clavier). Un bouton qui ne réagit pas paraît cassé.
