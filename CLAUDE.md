@@ -22,6 +22,7 @@ Manon est très sensible au visuel : chaque projet doit avoir sa propre patte es
 - **Avant de concevoir ou de refondre une interface** (nouveau projet, nouvel écran important, refonte) : fais une recherche d'inspiration. Sur GitHub (dépôts d'interfaces, bibliothèques de composants, *design systems* open source) et sur le web (galeries de design, tendances récentes de présentation, nouveautés CSS).
 - **Propose ensuite 2 ou 3 directions visuelles vraiment différentes**, adaptées au sujet et aux utilisateurs du projet : ambiance, palette, typographie, mise en page, avec les sources qui les ont inspirées. Montre-les (maquette ou capture d'écran), pas seulement en texte, puis laisse-la choisir.
 - Une fois la direction choisie, note-la dans le dépôt du projet (son `CLAUDE.md` ou un fichier dédié) pour rester cohérent d'une séance à l'autre.
+- **Le style ne passe jamais avant l'usage** : chaque direction proposée doit respecter l'accessibilité (contraste ≥ 4,5, zones tactiles de 44 px, lisible au clavier et au lecteur d'écran). Adapte l'ambiance au public : sobre, apaisante et discrète pour Biblio VSS (personnes potentiellement en détresse) ; claire et sans friction pour Budget du foyer (usage quotidien avec Damien) ; plus créative et vivante pour Club Ciné (lycéens), sans sacrifier la lisibilité.
 - S'inspirer, pas copier : vérifie la licence avant de reprendre du code ou des éléments graphiques.
 - Pas besoin de cette recherche pour une petite correction ou un ajustement dans un style déjà choisi.
 
