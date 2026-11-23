@@ -136,6 +136,28 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Onboarding progressif** — Poser le minimum de questions au départ, puis les autres au moment où elles servent.
 
+**Simulation (modèle)** — Un calcul qui rejoue l'avenir mois par mois à partir d'hypothèses (trou, agios, effort) pour donner une date. Un modèle simplifie la réalité : ici, on suppose les agios proportionnels au découvert, alors qu'une partie sont des frais fixes.
+
+**Route (sous-écran)** — Un écran repéré par la fin de l'adresse (`#plan`). Le navigateur la retient : le bouton « retour » fonctionne et on peut ouvrir l'écran directement.
+
+**Paramètre d'entrée / sortie** — Ce qu'on donne à une fonction (le trou, les agios, l'effort) et ce qu'elle rend (le nombre de mois, la date, le mois par mois).
+
+**Cas limite (edge case)** — Une situation au bord des règles normales : effort à 0 €, trou déjà rebouché, 0 € d'agios. C'est là que se cachent les bugs, donc là qu'on teste en priorité.
+
+**Variable CSS locale** — Une variable CSS posée sur un seul élément (`style="--zero:40%"`) pour que la feuille de style s'en serve : ici, la place du zéro sur la jauge.
+
+**Affordance** — La capacité d'un écran à montrer de lui-même ce qu'on peut y faire. Une fonction cachée derrière un lien a une mauvaise affordance.
+
+**Période (cycle)** — Un intervalle de dates avec un début compris et une fin non comprise (du 28 octobre inclus au 28 novembre exclu). Le mois de paie n'est pas forcément le mois du calendrier.
+
+**Événement tactile (touchstart / touchend)** — Le signal que le navigateur envoie quand un doigt se pose sur l'écran, puis se lève. En comparant les deux positions, on reconnaît un balayage (swipe) : surtout horizontal et assez long.
+
+**Animation CSS (@keyframes)** — Une petite transition décrite dans la feuille de style : ici, le nouvel écran arrive en glissant de 40 pixels. Elle est désactivée si le téléphone demande moins d'animations (accessibilité).
+
+**optgroup** — Dans une liste déroulante HTML, un titre qui regroupe des choix (« Dépenses régulières », « Épargne »).
+
+**aria-pressed** — Un attribut d'accessibilité qui dit aux lecteurs d'écran qu'un bouton est « enfoncé » (le montant choisi parmi les pastilles).
+
 ## Conception produit
 
 **Discovery (phase de découverte)** — Comprendre le problème à résoudre avant de construire, par des questions, de l'observation, des chiffres.
