@@ -26,6 +26,7 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [ ] Développer la V1 par petites livraisons *(livraisons 1 à 5 faites le 9/11, sur 8)*
 - [x] Tester automatiquement (tests unitaires et test de parcours)
 - [x] Installer un outil depuis son code source, l'essayer sur une branche, puis fusionner par pull request
+- [x] Revue UX d'une appli : mesurer, prioriser, corriger (et résoudre un conflit de fusion)
 
 ## Palier 3 — La ligne de commande et Linux
 - [ ] Le terminal : naviguer, créer, lire des fichiers
