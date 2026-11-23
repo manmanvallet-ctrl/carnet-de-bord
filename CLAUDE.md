@@ -26,3 +26,18 @@ Lis `README.md`, `FEUILLE-DE-ROUTE.md` et le journal le plus récent de `journal
 
 ## Ses projets
 Chaque projet a son propre dépôt (liste dans `README.md`). Ce carnet garde ce qu'elle apprend, pas le code.
+
+| Projet | Dépôt | Public ? |
+|---|---|---|
+| Budget du foyer | `manmanvallet-ctrl/budget-familial` | privé, usage du foyer |
+| Club Ciné | `manmanvallet-ctrl/clubcin-` | prototype, futurs utilisateurs : élèves mineurs |
+| Biblio VSS | `manmanvallet-ctrl/biblio-VSS` | publié (GitHub Pages, stores en préparation) |
+
+### Demandes transverses : à appliquer à TOUS ses projets
+Quand elle demande une bonne pratique générale (et non une fonctionnalité d'un projet précis) — conformité légale, données personnelles, sécurité, accessibilité, performance, qualité du code, etc. — applique-la à **chacun** des projets du tableau, sans qu'elle ait à le redire :
+1. attache les dépôts manquants à la session (`add_repo`) ;
+2. fais le point projet par projet : ce qui est déjà bon, ce qui est à corriger, ce qui ne s'applique pas (et pourquoi) ;
+3. corrige ce qui est simple et sans risque ; pour ce qui demande un choix de sa part (identité publiée, prestataire, contenu), propose et laisse-la trancher ;
+4. adapte au contexte de chaque projet : un projet public ou destiné à des mineurs demande plus de rigueur qu'un outil privé du foyer ;
+5. termine par un tableau récapitulatif par projet.
+Si un nouveau projet naît, ajoute-le au tableau ci-dessus et au `README.md`.
