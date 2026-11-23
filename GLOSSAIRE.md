@@ -199,3 +199,43 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Nom de domaine** — Une adresse lisible par un humain (ex. `mon-site.fr`) qu'on achète pour une durée, en général un an renouvelable.
 
 **DNS (Domain Name System)** — L'annuaire mondial qui traduit un nom de domaine en adresse IP.
+
+## Passer à l'échelle (23 novembre)
+
+**SaaS (Software as a Service)** — Un logiciel qu'on n'installe pas : on l'utilise en ligne, souvent avec un abonnement (Gmail, Notion). Derrière, l'éditeur doit faire tourner des serveurs pour des milliers de personnes à la fois, d'où les nombreux « étages » techniques.
+
+**Vibe coding** — Programmer en décrivant ce qu'on veut à une IA, qui écrit le code. Ça produit vite quelque chose qui marche, mais faire un produit fiable demande encore de comprendre et de gérer tout ce qu'il y a autour.
+
+**System design (conception du système)** — Le plan d'ensemble avant de coder : quelles grandes pièces (écran, serveur, base de données…), qui parle à qui, où vivent les données.
+
+**Passer à l'échelle (scalabilité, scaling)** — La capacité d'un produit à tenir quand le nombre d'utilisateurs est multiplié par 10 ou par 1 000, sans ralentir ni tomber en panne.
+
+**Site statique** — Un site fait uniquement de fichiers tout prêts (HTML, CSS, JS, JSON), sans programme qui calcule une réponse sur le serveur. Très rapide, peu cher, presque impossible à pirater côté serveur et capable d'encaisser beaucoup de visiteurs. C'est le cas de Biblio VSS.
+
+**CI/CD (intégration et déploiement continus)** — Un robot (chez GitHub : *GitHub Actions*) qui, à chaque envoi de code, lance les tests (*intégration continue*) puis met en ligne si tout passe (*déploiement continu*). Il évite d'oublier une étape ou de publier une version cassée.
+
+**GitHub Actions / workflow** — Le service de GitHub qui exécute ces robots. Un *workflow* est la recette, écrite dans `.github/workflows/`, qui dit quand se déclencher (à chaque push, chaque mois…) et quelles commandes lancer.
+
+**GitHub Pages** — L'hébergement gratuit de sites statiques proposé par GitHub.
+
+**CDN (Content Delivery Network)** — Un réseau de serveurs répartis dans le monde qui gardent une copie des fichiers du site : chaque visiteur est servi par le plus proche, donc plus vite, et la charge est partagée.
+
+**Cache** — Une copie gardée sous la main pour ne pas refaire le même travail ou le même téléchargement. Le cache du navigateur permet par exemple à une appli de s'ouvrir hors-ligne.
+
+**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA utilisable sans réseau.
+
+**PWA (Progressive Web App)** — Un site qui se comporte comme une appli : il s'installe sur l'écran d'accueil et fonctionne hors-ligne, sans passer par un store.
+
+**Rate limiting (limitation de débit)** — Plafonner le nombre de demandes qu'une même personne ou machine peut faire en un temps donné. Protège contre le spam, les attaques et les factures qui explosent (chaque appel à une IA est payant).
+
+**Logs (journaux)** — Les lignes qu'un programme écrit au fil de son fonctionnement (« telle page demandée à 14 h 02 », « erreur ici »). On les relit pour comprendre ce qui s'est passé.
+
+**Suivi des erreurs (error tracking)** — Un outil qui récupère automatiquement les plantages survenus chez les utilisateurs, avec le contexte, pour qu'on les corrige sans attendre qu'ils les signalent. Attention : il ne doit pas collecter de données personnelles.
+
+**Monitoring et alertes** — Surveiller en continu qu'un service répond (et à quelle vitesse), et être prévenu·e (mail, notification) dès qu'il tombe.
+
+**RLS (Row Level Security)** — Des règles écrites dans la base de données elle-même : elle vérifie, ligne par ligne, si la personne connectée a le droit de voir ou modifier cette donnée. Même si l'écran a un bug, la base refuse.
+
+**RGPD** — Le règlement européen sur les données personnelles : ne collecter que le nécessaire, dire ce qu'on en fait, permettre de les supprimer, protéger davantage les mineurs et les données sensibles.
+
+**Privacy by design (protection dès la conception)** — Choisir dès le départ une architecture qui collecte le moins possible (pas de compte, pas de pistage, données sur l'appareil) plutôt que protéger après coup des données qu'on n'aurait pas dû garder.
