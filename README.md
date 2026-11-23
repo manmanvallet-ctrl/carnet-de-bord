@@ -17,6 +17,8 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 | Projet | Visibilité | En une phrase |
 |---|---|---|
 | [budget-familial](https://github.com/manmanvallet-ctrl/budget-familial) | privé | Appli de gestion budgétaire de couple avec coach IA. Besoins, benchmark et vision dans le dépôt ; maquette V1 : https://claude.ai/artifact/PQAGZTHAUwFoENgmGWWkTY |
+| [clubcin-](https://github.com/manmanvallet-ctrl/clubcin-) | public | Club Ciné : outil pédagogique pour un club cinéma de lycée (ateliers à contrainte, carnet de création par groupe). Prototype. |
+| [biblio-VSS](https://github.com/manmanvallet-ctrl/biblio-VSS) | public | Bibliothèque mobile de ressources sur les violences sexuelles, avec annuaire d'aide. Publiée en ligne, applis Android et iPhone en préparation. |
 
 ## Organisation du carnet
 
