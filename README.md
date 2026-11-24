@@ -10,7 +10,7 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 
 - **Niveau actuel :** débutante. Git et GitHub acquis ; démarche produit (besoins, user stories, maquette, benchmark) pratiquée sur un vrai projet.
 - **Objectif :** des compétences monétisables (développement web, mise en ligne, intégration de l'IA).
-- **Matériel prévu :** un VPS chez OVH et un nom de domaine, achetés le jour où un projet sera prêt à être mis en ligne.
+- **Matériel :** un premier nom de domaine chez OVH (`biblio-vss.fr`, avec sa boîte mail). Le VPS viendra quand un projet aura besoin d'un serveur.
 
 ## Mes projets
 
@@ -18,7 +18,7 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 |---|---|---|
 | [budget-familial](https://github.com/manmanvallet-ctrl/budget-familial) | privé | Appli de gestion budgétaire de couple avec coach IA. Besoins, benchmark et vision dans le dépôt ; maquette V1 : https://claude.ai/artifact/PQAGZTHAUwFoENgmGWWkTY |
 | [clubcin-](https://github.com/manmanvallet-ctrl/clubcin-) | public | Club Ciné : outil pédagogique pour un club cinéma de lycée (ateliers à contrainte, carnet de création par groupe). Prototype. |
-| [biblio-VSS](https://github.com/manmanvallet-ctrl/biblio-VSS) | public | Bibliothèque mobile de ressources sur les violences sexuelles, avec annuaire d'aide. Publiée en ligne, applis Android et iPhone en préparation. |
+| [biblio-VSS](https://github.com/manmanvallet-ctrl/biblio-VSS) | public | Bibliothèque mobile de ressources sur les violences sexuelles, avec annuaire d'aide. En ligne sur https://biblio-vss.fr (nom de domaine OVH), applis Android et iPhone en préparation. |
 
 ## Organisation du carnet
 

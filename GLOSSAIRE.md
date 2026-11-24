@@ -235,6 +235,29 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Linter** — Un programme qui relit du code ou du texte et signale les défauts selon des règles fixes. Il ne comprend pas le sens : celui de la skill ne connaît que les mots anglais.
 
 **WebP** — Un format d'image plus léger que le JPEG à qualité égale. Chaque fichier commence par un en-tête qui annonce sa taille ; s'il est faux, le navigateur refuse l'image.
+**Zone DNS** — La fiche d'un nom de domaine dans l'annuaire : la liste de ses enregistrements. On la modifie chez le vendeur du domaine (OVH).
+
+**Enregistrement A / AAAA** — « Ce nom correspond à cette adresse IP ». A pour les adresses classiques (IPv4, `185.199.108.153`), AAAA pour les plus récentes et plus longues (IPv6, `2606:50c0:8000::153`).
+
+**CNAME** — Un alias : « `www` est la même chose que telle autre adresse, va demander là-bas ». Il ne peut pas cohabiter avec un autre enregistrement sur le même nom.
+
+**MX** — « Le courrier de ce domaine se livre à tel serveur ». Sans lui, la boîte `contact@` ne reçoit rien.
+
+**TXT** — Un enregistrement qui contient juste du texte. Il ne dirige personne : il sert de preuve (« ce domaine est à moi », pour GitHub ou Google) ou de consigne (SPF).
+
+**SPF (Sender Policy Framework)** — Un TXT qui dit quels serveurs ont le droit d'envoyer des e-mails au nom du domaine. Sans lui, les e-mails risquent de finir en spam et d'être plus faciles à imiter.
+
+**Racine (apex) et `@`** — Le domaine lui-même, sans rien devant (`biblio-vss.fr`). Dans une zone DNS, on l'écrit `@`. `www.biblio-vss.fr` est un sous-domaine.
+
+**TTL (Time To Live)** — La durée pendant laquelle un annuaire garde une réponse en mémoire avant de la redemander. C'est pour ça qu'un changement de DNS met de quelques minutes à quelques heures à se voir partout.
+
+**Cache** — Une copie gardée en mémoire pour répondre plus vite. Pratique, mais elle peut être en retard sur la réalité.
+
+**Redirection 301** — La réponse « déplacé définitivement, va à cette adresse ». Le navigateur suit tout seul, et les moteurs de recherche mettent leurs liens à jour.
+
+**Code 404** — La réponse « page introuvable ». Une page 404 personnalisée aide la personne perdue au lieu d'afficher une erreur brute.
+
+**Origine** — Le trio protocole + domaine + port (`https://biblio-vss.fr`). Le navigateur range les données d'un site (localStorage, favoris) par origine : changer d'adresse, c'est repartir de zéro.
 
 ## Outils et collaboration (23 novembre)
 
