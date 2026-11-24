@@ -233,3 +233,5 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Licence OFL (SIL Open Font License)** — La licence de la plupart des polices gratuites (Fraunces, Inter) : on peut les utiliser et les intégrer dans une appli, même commerciale, à condition de joindre le texte de la licence.
 
 **SVG** — Un format d'image décrit par des formes (traits, cercles) plutôt que par des pixels. Une icône SVG reste nette à toutes les tailles, prend la couleur du texte autour d'elle et s'affiche pareil sur tous les téléphones, contrairement aux émojis.
+
+**Espace insécable** — Une espace qui interdit le retour à la ligne à cet endroit (`&nbsp;` en HTML). Elle garde ensemble deux mots qui ne doivent pas être séparés, comme « pas seul·e » ou « 3 niveaux ».
