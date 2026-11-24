@@ -221,3 +221,15 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **Zone tactile** — La surface qu'on peut toucher du doigt pour activer un bouton. 44 px de côté au minimum, sinon on rate la cible ou on touche le bouton d'à côté.
 
 **États d'un bouton** — Ses différentes apparences selon la situation : normal, survolé (souris dessus), appuyé, désactivé, avec le focus (sélectionné au clavier). Un bouton qui ne réagit pas paraît cassé.
+
+**Charte graphique** — Le document qui fixe l'identité visuelle d'un projet : couleurs, polices, tailles, ton, ce qu'il faut éviter, et pourquoi. Elle garantit qu'Instagram, le site et l'appli se ressemblent, quelle que soit la personne qui crée le visuel.
+
+**Jetons de design (design tokens)** — Les valeurs de la charte nommées une fois pour toutes (`--prune: #4a2f6b`) et réutilisées partout dans le code. Changer un jeton change toute l'appli d'un coup, sans chercher chaque couleur à la main.
+
+**Thème sombre (dark mode)** — Une seconde palette, aux couleurs inversées (fond foncé, texte clair), que l'appli applique automatiquement quand le téléphone est réglé ainsi. Moins éblouissant la nuit, mais toutes les couleurs doivent être revérifiées.
+
+**Police hébergée (auto-hébergement)** — Le fichier de la police est livré avec l'appli au lieu d'être téléchargé chez Google Fonts à chaque ouverture. Avantage : aucune adresse IP envoyée à un tiers (RGPD) et l'appli marche hors-ligne.
+
+**Licence OFL (SIL Open Font License)** — La licence de la plupart des polices gratuites (Fraunces, Inter) : on peut les utiliser et les intégrer dans une appli, même commerciale, à condition de joindre le texte de la licence.
+
+**SVG** — Un format d'image décrit par des formes (traits, cercles) plutôt que par des pixels. Une icône SVG reste nette à toutes les tailles, prend la couleur du texte autour d'elle et s'affiche pareil sur tous les téléphones, contrairement aux émojis.
