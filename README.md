@@ -27,4 +27,5 @@ Mon journal de progression : ce que j'apprends, les projets que je construis, le
 | `README.md` | La page d'accueil du dépôt (ce fichier) : qui je suis, où j'en suis |
 | `FEUILLE-DE-ROUTE.md` | Les étapes d'apprentissage, cochées au fur et à mesure |
 | `GLOSSAIRE.md` | Tous les mots techniques appris, expliqués simplement |
+| `ETAGES-PRODUIT.md` | Les étages techniques d'un vrai produit, et où en est chaque projet |
 | `journal/` | Une note par session : ce qu'on a fait, ce que j'ai compris, les questions qui restent |

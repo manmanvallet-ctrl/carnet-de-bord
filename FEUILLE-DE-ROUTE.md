@@ -26,6 +26,7 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [ ] Développer la V1 par petites livraisons *(livraisons 1 à 5 faites le 9/11, sur 8)*
 - [x] Tester automatiquement (tests unitaires et test de parcours)
 - [x] Installer un outil depuis son code source, l'essayer sur une branche, puis fusionner par pull request
+- [x] Revue UX d'une appli : mesurer, prioriser, corriger (et résoudre un conflit de fusion)
 
 ## Palier 3 — La ligne de commande et Linux
 - [ ] Le terminal : naviguer, créer, lire des fichiers
@@ -49,3 +50,11 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 ## Palier 5 — Intégrer l'IA
 - [ ] Qu'est-ce qu'une API, comment on l'appelle
 - [ ] Construire une petite application qui utilise un modèle d'IA
+
+## Palier 6 — Passer à l'échelle (les étages d'un vrai produit)
+Objectif : que mes projets soient utilisés par beaucoup de monde. État projet par projet dans [`ETAGES-PRODUIT.md`](ETAGES-PRODUIT.md).
+- [x] Savoir quels étages existent et lesquels chaque projet a déjà
+- [ ] Tests lancés automatiquement par GitHub (CI) sur chaque projet
+- [ ] Biblio VSS : tests automatiques, anti-spam sur « Proposer », monitoring respectueux de la vie privée
+- [ ] Club Ciné : brancher Supabase et les comptes, RGPD pour des mineurs
+- [ ] Budget du foyer : décider s'il devient un produit pour d'autres foyers, puis backend et comptes

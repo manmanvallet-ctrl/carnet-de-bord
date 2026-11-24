@@ -136,6 +136,28 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Onboarding progressif** — Poser le minimum de questions au départ, puis les autres au moment où elles servent.
 
+**Simulation (modèle)** — Un calcul qui rejoue l'avenir mois par mois à partir d'hypothèses (trou, agios, effort) pour donner une date. Un modèle simplifie la réalité : ici, on suppose les agios proportionnels au découvert, alors qu'une partie sont des frais fixes.
+
+**Route (sous-écran)** — Un écran repéré par la fin de l'adresse (`#plan`). Le navigateur la retient : le bouton « retour » fonctionne et on peut ouvrir l'écran directement.
+
+**Paramètre d'entrée / sortie** — Ce qu'on donne à une fonction (le trou, les agios, l'effort) et ce qu'elle rend (le nombre de mois, la date, le mois par mois).
+
+**Cas limite (edge case)** — Une situation au bord des règles normales : effort à 0 €, trou déjà rebouché, 0 € d'agios. C'est là que se cachent les bugs, donc là qu'on teste en priorité.
+
+**Variable CSS locale** — Une variable CSS posée sur un seul élément (`style="--zero:40%"`) pour que la feuille de style s'en serve : ici, la place du zéro sur la jauge.
+
+**Affordance** — La capacité d'un écran à montrer de lui-même ce qu'on peut y faire. Une fonction cachée derrière un lien a une mauvaise affordance.
+
+**Période (cycle)** — Un intervalle de dates avec un début compris et une fin non comprise (du 28 octobre inclus au 28 novembre exclu). Le mois de paie n'est pas forcément le mois du calendrier.
+
+**Événement tactile (touchstart / touchend)** — Le signal que le navigateur envoie quand un doigt se pose sur l'écran, puis se lève. En comparant les deux positions, on reconnaît un balayage (swipe) : surtout horizontal et assez long.
+
+**Animation CSS (@keyframes)** — Une petite transition décrite dans la feuille de style : ici, le nouvel écran arrive en glissant de 40 pixels. Elle est désactivée si le téléphone demande moins d'animations (accessibilité).
+
+**optgroup** — Dans une liste déroulante HTML, un titre qui regroupe des choix (« Dépenses régulières », « Épargne »).
+
+**aria-pressed** — Un attribut d'accessibilité qui dit aux lecteurs d'écran qu'un bouton est « enfoncé » (le montant choisi parmi les pastilles).
+
 ## Conception produit
 
 **Discovery (phase de découverte)** — Comprendre le problème à résoudre avant de construire, par des questions, de l'observation, des chiffres.
@@ -200,6 +222,19 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **DNS (Domain Name System)** — L'annuaire mondial qui traduit un nom de domaine en adresse IP.
 
+## Agents et outils d'IA (10 novembre)
+
+**Skill (compétence d'agent)** — Un dossier de consignes et de scripts qu'on installe dans un agent de code. L'agent le charge quand la tâche correspond : c'est une façon de lui transmettre un savoir-faire réutilisable, au lieu de tout réexpliquer à chaque fois. Taste Skill (10/11) et UI UX Pro Max (23/11) en sont deux exemples.
+
+**Hook** — Un script que l'outil lance tout seul à un moment précis (par exemple à la fin de chaque réponse). Puissant, donc à lire avant d'installer : il s'exécute sans qu'on le demande.
+
+**Proxy** — Un intermédiaire par lequel passent les connexions sortantes d'une machine. Il peut autoriser ou refuser un site : c'est lui qui bloquait Wikimedia pendant l'essai.
+
+**Site vitrine** — Un site qui présente une activité (qui, quoi, où, horaires, prix) sans être un outil : on le lit, on ne s'en sert pas comme d'une appli.
+
+**Linter** — Un programme qui relit du code ou du texte et signale les défauts selon des règles fixes. Il ne comprend pas le sens : celui de la skill ne connaît que les mots anglais.
+
+**WebP** — Un format d'image plus léger que le JPEG à qualité égale. Chaque fichier commence par un en-tête qui annonce sa taille ; s'il est faux, le navigateur refuse l'image.
 **Zone DNS** — La fiche d'un nom de domaine dans l'annuaire : la liste de ses enregistrements. On la modifie chez le vendeur du domaine (OVH).
 
 **Enregistrement A / AAAA** — « Ce nom correspond à cette adresse IP ». A pour les adresses classiques (IPv4, `185.199.108.153`), AAAA pour les plus récentes et plus longues (IPv6, `2606:50c0:8000::153`).
@@ -246,39 +281,50 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **États d'un bouton** — Ses différentes apparences selon la situation : normal, survolé (souris dessus), appuyé, désactivé, avec le focus (sélectionné au clavier). Un bouton qui ne réagit pas paraît cassé.
 
-**Charte graphique** — Le document qui fixe l'identité visuelle d'un projet : couleurs, polices, tailles, ton, ce qu'il faut éviter, et pourquoi. Elle garantit qu'Instagram, le site et l'appli se ressemblent, quelle que soit la personne qui crée le visuel.
+**Revue UX (audit)** — Passer une interface en revue pour repérer ce qui gêne l'utilisateur. Une bonne revue mesure (tailles, contrastes, comportement sur petit écran) et classe les corrections par gravité, au lieu de donner des impressions.
 
-**Jetons de design (design tokens)** — Les valeurs de la charte nommées une fois pour toutes (`--prune: #4a2f6b`) et réutilisées partout dans le code. Changer un jeton change toute l'appli d'un coup, sans chercher chaque couleur à la main.
+**Zoom automatique (iPhone)** — Safari sur iPhone agrandit toute la page dès qu'on touche un champ dont le texte fait moins de 16 px. D'où la règle : texte des champs de saisie à 16 px minimum.
 
-**Thème sombre (dark mode)** — Une seconde palette, aux couleurs inversées (fond foncé, texte clair), que l'appli applique automatiquement quand le téléphone est réglé ainsi. Moins éblouissant la nuit, mais toutes les couleurs doivent être revérifiées.
+**Pseudo-élément (`::after`, `::before`)** — Un élément que le CSS ajoute à une balise sans toucher au HTML. Invisible, il sert ici à agrandir la zone tactile d'un bouton sans changer sa taille à l'écran.
 
-**Police hébergée (auto-hébergement)** — Le fichier de la police est livré avec l'appli au lieu d'être téléchargé chez Google Fonts à chaque ouverture. Avantage : aucune adresse IP envoyée à un tiers (RGPD) et l'appli marche hors-ligne.
+**Marqueurs de conflit** — Quand Git ne peut pas fusionner seul, il écrit les deux versions dans le fichier entre `<<<<<<<` (ma version), `=======` et `>>>>>>>` (l'autre version). Résoudre le conflit, c'est remplacer ce bloc par la version voulue, puis enregistrer un commit de fusion.
 
-**Licence OFL (SIL Open Font License)** — La licence de la plupart des polices gratuites (Fraunces, Inter) : on peut les utiliser et les intégrer dans une appli, même commerciale, à condition de joindre le texte de la licence.
+## Passer à l'échelle (23 novembre)
 
-**SVG** — Un format d'image décrit par des formes (traits, cercles) plutôt que par des pixels. Une icône SVG reste nette à toutes les tailles, prend la couleur du texte autour d'elle et s'affiche pareil sur tous les téléphones, contrairement aux émojis.
+**SaaS (Software as a Service)** — Un logiciel qu'on n'installe pas : on l'utilise en ligne, souvent avec un abonnement (Gmail, Notion). Derrière, l'éditeur doit faire tourner des serveurs pour des milliers de personnes à la fois, d'où les nombreux « étages » techniques.
 
-**Espace insécable** — Une espace qui interdit le retour à la ligne à cet endroit (`&nbsp;` en HTML). Elle garde ensemble deux mots qui ne doivent pas être séparés, comme « pas seul·e » ou « 3 niveaux ».
+**Vibe coding** — Programmer en décrivant ce qu'on veut à une IA, qui écrit le code. Ça produit vite quelque chose qui marche, mais faire un produit fiable demande encore de comprendre et de gérer tout ce qu'il y a autour.
 
-## Publier un site (23 et 24 novembre)
+**System design (conception du système)** — Le plan d'ensemble avant de coder : quelles grandes pièces (écran, serveur, base de données…), qui parle à qui, où vivent les données.
 
-**LCEN** — La loi française de 2004 sur l'économie numérique. Elle impose des mentions légales à tout site publié. Une personne qui publie à titre non professionnel peut rester anonyme, si l'hébergeur connaît son identité.
+**Passer à l'échelle (scalabilité, scaling)** — La capacité d'un produit à tenir quand le nombre d'utilisateurs est multiplié par 10 ou par 1 000, sans ralentir ni tomber en panne.
 
-**RGPD** — Le règlement européen sur les données personnelles. Il oblige à dire quelles données on collecte, pourquoi, combien de temps, et à qui on les transmet (même une simple adresse IP).
+**Site statique** — Un site fait uniquement de fichiers tout prêts (HTML, CSS, JS, JSON), sans programme qui calcule une réponse sur le serveur. Très rapide, peu cher, presque impossible à pirater côté serveur et capable d'encaisser beaucoup de visiteurs. C'est le cas de Biblio VSS.
 
-**Open Graph** — Des balises invisibles dans la page (`og:title`, `og:image`…) qui disent aux messageries et aux réseaux sociaux quel titre, quel texte et quelle image afficher quand on partage le lien.
+**CI/CD (intégration et déploiement continus)** — Un robot (chez GitHub : *GitHub Actions*) qui, à chaque envoi de code, lance les tests (*intégration continue*) puis met en ligne si tout passe (*déploiement continu*). Il évite d'oublier une étape ou de publier une version cassée.
 
-**Sitemap** — Le plan du site pour les moteurs de recherche : un fichier `sitemap.xml` qui liste les pages à indexer.
+**GitHub Actions / workflow** — Le service de GitHub qui exécute ces robots. Un *workflow* est la recette, écrite dans `.github/workflows/`, qui dit quand se déclencher (à chaque push, chaque mois…) et quelles commandes lancer.
 
-**robots.txt** — Le petit fichier que les robots des moteurs de recherche lisent en premier : ce qu'ils ont le droit de visiter, et où trouver le sitemap.
+**GitHub Pages** — L'hébergement gratuit de sites statiques proposé par GitHub.
 
-**Indexation** — Le moment où un moteur de recherche lit une page et la range dans sa base, pour pouvoir la proposer dans ses résultats.
+**CDN (Content Delivery Network)** — Un réseau de serveurs répartis dans le monde qui gardent une copie des fichiers du site : chaque visiteur est servi par le plus proche, donc plus vite, et la charge est partagée.
 
-**Search Console** — L'outil gratuit de Google qui montre si un site est indexé, sur quelles recherches il apparaît et combien de personnes cliquent. Il ne met rien sur le site et ne suit pas les visiteurs.
+**Cache** — Une copie gardée sous la main pour ne pas refaire le même travail ou le même téléchargement. Le cache du navigateur permet par exemple à une appli de s'ouvrir hors-ligne.
 
-**Honeypot (piège à robots)** — Un champ de formulaire invisible : une personne le laisse vide, un robot spammeur le remplit, et son envoi est jeté.
+**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA utilisable sans réseau.
 
-**Formspree** — Un service qui reçoit les formulaires d'un site sans serveur et les transfère par e-mail, sans afficher l'adresse dans le code.
+**PWA (Progressive Web App)** — Un site qui se comporte comme une appli : il s'installe sur l'écran d'accueil et fonctionne hors-ligne, sans passer par un store.
 
-**axe-core** — Un outil de test automatique de l'accessibilité : il passe une page en revue (contraste, étiquettes, structure) et liste les problèmes.
+**Rate limiting (limitation de débit)** — Plafonner le nombre de demandes qu'une même personne ou machine peut faire en un temps donné. Protège contre le spam, les attaques et les factures qui explosent (chaque appel à une IA est payant).
 
+**Logs (journaux)** — Les lignes qu'un programme écrit au fil de son fonctionnement (« telle page demandée à 14 h 02 », « erreur ici »). On les relit pour comprendre ce qui s'est passé.
+
+**Suivi des erreurs (error tracking)** — Un outil qui récupère automatiquement les plantages survenus chez les utilisateurs, avec le contexte, pour qu'on les corrige sans attendre qu'ils les signalent. Attention : il ne doit pas collecter de données personnelles.
+
+**Monitoring et alertes** — Surveiller en continu qu'un service répond (et à quelle vitesse), et être prévenu·e (mail, notification) dès qu'il tombe.
+
+**RLS (Row Level Security)** — Des règles écrites dans la base de données elle-même : elle vérifie, ligne par ligne, si la personne connectée a le droit de voir ou modifier cette donnée. Même si l'écran a un bug, la base refuse.
+
+**RGPD** — Le règlement européen sur les données personnelles : ne collecter que le nécessaire, dire ce qu'on en fait, permettre de les supprimer, protéger davantage les mineurs et les données sensibles.
+
+**Privacy by design (protection dès la conception)** — Choisir dès le départ une architecture qui collecte le moins possible (pas de compte, pas de pistage, données sur l'appareil) plutôt que protéger après coup des données qu'on n'aurait pas dû garder.

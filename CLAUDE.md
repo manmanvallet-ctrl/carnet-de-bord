@@ -52,3 +52,6 @@ Quand elle demande une bonne pratique générale (et non une fonctionnalité d'u
 4. adapte au contexte de chaque projet : un projet public ou destiné à des mineurs demande plus de rigueur qu'un outil privé du foyer ;
 5. termine par un tableau récapitulatif par projet.
 Si un nouveau projet naît, ajoute-le au tableau ci-dessus et au `README.md`.
+
+## Outils déjà essayés
+- **Taste Skill** (sites vitrines) : avant de construire une page vitrine, lis `notes/taste-skill.md` (quand l'utiliser, limites, marche à suivre en session cloud). Ne l'applique pas à *Budget du foyer*.
