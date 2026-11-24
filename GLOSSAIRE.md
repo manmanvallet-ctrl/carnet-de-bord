@@ -200,6 +200,30 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **DNS (Domain Name System)** — L'annuaire mondial qui traduit un nom de domaine en adresse IP.
 
+**Zone DNS** — La fiche d'un nom de domaine dans l'annuaire : la liste de ses enregistrements. On la modifie chez le vendeur du domaine (OVH).
+
+**Enregistrement A / AAAA** — « Ce nom correspond à cette adresse IP ». A pour les adresses classiques (IPv4, `185.199.108.153`), AAAA pour les plus récentes et plus longues (IPv6, `2606:50c0:8000::153`).
+
+**CNAME** — Un alias : « `www` est la même chose que telle autre adresse, va demander là-bas ». Il ne peut pas cohabiter avec un autre enregistrement sur le même nom.
+
+**MX** — « Le courrier de ce domaine se livre à tel serveur ». Sans lui, la boîte `contact@` ne reçoit rien.
+
+**TXT** — Un enregistrement qui contient juste du texte. Il ne dirige personne : il sert de preuve (« ce domaine est à moi », pour GitHub ou Google) ou de consigne (SPF).
+
+**SPF (Sender Policy Framework)** — Un TXT qui dit quels serveurs ont le droit d'envoyer des e-mails au nom du domaine. Sans lui, les e-mails risquent de finir en spam et d'être plus faciles à imiter.
+
+**Racine (apex) et `@`** — Le domaine lui-même, sans rien devant (`biblio-vss.fr`). Dans une zone DNS, on l'écrit `@`. `www.biblio-vss.fr` est un sous-domaine.
+
+**TTL (Time To Live)** — La durée pendant laquelle un annuaire garde une réponse en mémoire avant de la redemander. C'est pour ça qu'un changement de DNS met de quelques minutes à quelques heures à se voir partout.
+
+**Cache** — Une copie gardée en mémoire pour répondre plus vite. Pratique, mais elle peut être en retard sur la réalité.
+
+**Redirection 301** — La réponse « déplacé définitivement, va à cette adresse ». Le navigateur suit tout seul, et les moteurs de recherche mettent leurs liens à jour.
+
+**Code 404** — La réponse « page introuvable ». Une page 404 personnalisée aide la personne perdue au lieu d'afficher une erreur brute.
+
+**Origine** — Le trio protocole + domaine + port (`https://biblio-vss.fr`). Le navigateur range les données d'un site (localStorage, favoris) par origine : changer d'adresse, c'est repartir de zéro.
+
 ## Outils et collaboration (23 novembre)
 
 **Plugin** — Une extension qu'on ajoute à un logiciel pour lui donner de nouvelles capacités sans modifier le logiciel lui-même. Impeccable est un plugin de Claude Code : il apporte des consignes de design et des commandes comme `/impeccable polish`.
@@ -235,3 +259,26 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **SVG** — Un format d'image décrit par des formes (traits, cercles) plutôt que par des pixels. Une icône SVG reste nette à toutes les tailles, prend la couleur du texte autour d'elle et s'affiche pareil sur tous les téléphones, contrairement aux émojis.
 
 **Espace insécable** — Une espace qui interdit le retour à la ligne à cet endroit (`&nbsp;` en HTML). Elle garde ensemble deux mots qui ne doivent pas être séparés, comme « pas seul·e » ou « 3 niveaux ».
+
+## Publier un site (23 et 24 novembre)
+
+**LCEN** — La loi française de 2004 sur l'économie numérique. Elle impose des mentions légales à tout site publié. Une personne qui publie à titre non professionnel peut rester anonyme, si l'hébergeur connaît son identité.
+
+**RGPD** — Le règlement européen sur les données personnelles. Il oblige à dire quelles données on collecte, pourquoi, combien de temps, et à qui on les transmet (même une simple adresse IP).
+
+**Open Graph** — Des balises invisibles dans la page (`og:title`, `og:image`…) qui disent aux messageries et aux réseaux sociaux quel titre, quel texte et quelle image afficher quand on partage le lien.
+
+**Sitemap** — Le plan du site pour les moteurs de recherche : un fichier `sitemap.xml` qui liste les pages à indexer.
+
+**robots.txt** — Le petit fichier que les robots des moteurs de recherche lisent en premier : ce qu'ils ont le droit de visiter, et où trouver le sitemap.
+
+**Indexation** — Le moment où un moteur de recherche lit une page et la range dans sa base, pour pouvoir la proposer dans ses résultats.
+
+**Search Console** — L'outil gratuit de Google qui montre si un site est indexé, sur quelles recherches il apparaît et combien de personnes cliquent. Il ne met rien sur le site et ne suit pas les visiteurs.
+
+**Honeypot (piège à robots)** — Un champ de formulaire invisible : une personne le laisse vide, un robot spammeur le remplit, et son envoi est jeté.
+
+**Formspree** — Un service qui reçoit les formulaires d'un site sans serveur et les transfère par e-mail, sans afficher l'adresse dans le code.
+
+**axe-core** — Un outil de test automatique de l'accessibilité : il passe une page en revue (contraste, étiquettes, structure) et liste les problèmes.
+
