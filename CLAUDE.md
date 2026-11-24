@@ -24,6 +24,7 @@ Manon est très sensible au visuel : chaque projet doit avoir sa propre patte es
 - Une fois la direction choisie, note-la dans le dépôt du projet (son `CLAUDE.md` ou un fichier dédié) pour rester cohérent d'une séance à l'autre.
 - **Où chercher** : GitHub sert surtout pour le code réutilisable (*design systems*, bibliothèques de composants, listes « awesome »). Pour l'œil, complète avec des galeries de design et les nouveautés CSS récentes, en citant toujours les sources.
 - **Le beau ne passe jamais avant l'usage** : chaque direction respecte l'accessibilité (contraste d'au moins 4,5 pour le texte, zones tactiles de 44 px, lisible au clavier) et le public du projet : rassurant et discret pour Biblio VSS, adapté à des élèves mineurs pour Club Ciné, simple pour Damien dans Budget du foyer.
+- **Le style ne passe jamais avant l'usage** : chaque direction proposée doit respecter l'accessibilité (contraste ≥ 4,5, zones tactiles de 44 px, lisible au clavier et au lecteur d'écran). Adapte l'ambiance au public : sobre, apaisante et discrète pour Biblio VSS (personnes potentiellement en détresse) ; claire et sans friction pour Budget du foyer (usage quotidien avec Damien) ; plus créative et vivante pour Club Ciné (lycéens), sans sacrifier la lisibilité.
 - S'inspirer, pas copier : vérifie la licence avant de reprendre du code ou des éléments graphiques.
 - Pas besoin de cette recherche pour une petite correction ou un ajustement dans un style déjà choisi.
 
