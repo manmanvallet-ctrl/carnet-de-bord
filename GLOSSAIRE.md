@@ -328,3 +328,26 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **RGPD** — Le règlement européen sur les données personnelles : ne collecter que le nécessaire, dire ce qu'on en fait, permettre de les supprimer, protéger davantage les mineurs et les données sensibles.
 
 **Privacy by design (protection dès la conception)** — Choisir dès le départ une architecture qui collecte le moins possible (pas de compte, pas de pistage, données sur l'appareil) plutôt que protéger après coup des données qu'on n'aurait pas dû garder.
+
+## Retours sur une maquette (24 novembre, après-midi)
+
+**ISBN** — Le numéro unique d'un livre (13 chiffres, celui du code-barres). Chaque édition a le sien : le poche et le grand format n'ont pas le même.
+
+**Aplat** — Une surface de couleur unie, sans variation. À ne pas confondre avec un **dégradé**, où une couleur passe progressivement à une autre.
+
+**Fenêtre modale (`<dialog>`)** — Une fenêtre qui s'ouvre par-dessus la page : tant qu'elle est ouverte, le reste passe sous un voile et ne réagit plus.
+
+**`:has()`** — Un sélecteur CSS récent qui veut dire « si l'élément contient… ». Exemple : « si la page contient une fenêtre ouverte, cache tel bouton ».
+
+**`color-scheme`** — Une propriété CSS qui dit au navigateur si la page est claire ou sombre, pour qu'il dessine les cases, listes et barres de défilement dans les bonnes couleurs.
+
+**`appearance: none`** — Une instruction CSS qui retire le dessin d'un élément de formulaire par le système (une case à cocher, par exemple), pour le dessiner soi-même.
+
+**`aria-expanded`** — Un attribut qui dit au lecteur d'écran si un bouton « Afficher plus » est ouvert ou fermé.
+
+**Flexbox** — Une façon de ranger des éléments en ligne ou en colonne en CSS. La règle `flex: 1` dit « prends toute la place qui reste ».
+
+**Service worker (cache hors-ligne)** — Un petit programme qui garde une copie de l'appli sur le téléphone pour qu'elle marche sans connexion. Il ne recharge les fichiers que si son numéro de version change.
+
+**Droit de courte citation** — L'exception au droit d'auteur qui permet de citer un court extrait dans une analyse, avec sa source. Recopier tout un résumé officiel va au-delà : c'est toléré en pratique, pas garanti.
+
