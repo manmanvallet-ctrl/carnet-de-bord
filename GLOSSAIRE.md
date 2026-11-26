@@ -251,7 +251,7 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **TTL (Time To Live)** — La durée pendant laquelle un annuaire garde une réponse en mémoire avant de la redemander. C'est pour ça qu'un changement de DNS met de quelques minutes à quelques heures à se voir partout.
 
-**Cache** — Une copie gardée en mémoire pour répondre plus vite. Pratique, mais elle peut être en retard sur la réalité.
+**Cache** — Une copie gardée sous la main pour répondre plus vite, sans refaire le même travail ou le même téléchargement. Pratique, mais elle peut être en retard sur la réalité (c'est pour ça qu'un changement de DNS met du temps à se voir partout). Le cache du navigateur permet aussi à une appli de s'ouvrir hors-ligne.
 
 **Redirection 301** — La réponse « déplacé définitivement, va à cette adresse ». Le navigateur suit tout seul, et les moteurs de recherche mettent leurs liens à jour.
 
@@ -308,8 +308,6 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **GitHub Pages** — L'hébergement gratuit de sites statiques proposé par GitHub.
 
 **CDN (Content Delivery Network)** — Un réseau de serveurs répartis dans le monde qui gardent une copie des fichiers du site : chaque visiteur est servi par le plus proche, donc plus vite, et la charge est partagée.
-
-**Cache** — Une copie gardée sous la main pour ne pas refaire le même travail ou le même téléchargement. Le cache du navigateur permet par exemple à une appli de s'ouvrir hors-ligne.
 
 **Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA utilisable sans réseau.
 
