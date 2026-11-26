@@ -251,7 +251,7 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **TTL (Time To Live)** — La durée pendant laquelle un annuaire garde une réponse en mémoire avant de la redemander. C'est pour ça qu'un changement de DNS met de quelques minutes à quelques heures à se voir partout.
 
-**Cache** — Une copie gardée en mémoire pour répondre plus vite. Pratique, mais elle peut être en retard sur la réalité.
+**Cache** — Une copie gardée sous la main pour répondre plus vite, sans refaire le même travail ou le même téléchargement. Pratique, mais elle peut être en retard sur la réalité (c'est pour ça qu'un changement de DNS met du temps à se voir partout). Le cache du navigateur permet aussi à une appli de s'ouvrir hors-ligne.
 
 **Redirection 301** — La réponse « déplacé définitivement, va à cette adresse ». Le navigateur suit tout seul, et les moteurs de recherche mettent leurs liens à jour.
 
@@ -309,9 +309,7 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **CDN (Content Delivery Network)** — Un réseau de serveurs répartis dans le monde qui gardent une copie des fichiers du site : chaque visiteur est servi par le plus proche, donc plus vite, et la charge est partagée.
 
-**Cache** — Une copie gardée sous la main pour ne pas refaire le même travail ou le même téléchargement. Le cache du navigateur permet par exemple à une appli de s'ouvrir hors-ligne.
-
-**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA utilisable sans réseau.
+**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA (ou une appli web) utilisable sans réseau. Il ne recharge les fichiers que si son numéro de version change.
 
 **PWA (Progressive Web App)** — Un site qui se comporte comme une appli : il s'installe sur l'écran d'accueil et fonctionne hors-ligne, sans passer par un store.
 
@@ -328,3 +326,24 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **RGPD** — Le règlement européen sur les données personnelles : ne collecter que le nécessaire, dire ce qu'on en fait, permettre de les supprimer, protéger davantage les mineurs et les données sensibles.
 
 **Privacy by design (protection dès la conception)** — Choisir dès le départ une architecture qui collecte le moins possible (pas de compte, pas de pistage, données sur l'appareil) plutôt que protéger après coup des données qu'on n'aurait pas dû garder.
+
+## Retours sur une maquette (24 novembre, après-midi)
+
+**ISBN** — Le numéro unique d'un livre (13 chiffres, celui du code-barres). Chaque édition a le sien : le poche et le grand format n'ont pas le même.
+
+**Aplat** — Une surface de couleur unie, sans variation. À ne pas confondre avec un **dégradé**, où une couleur passe progressivement à une autre.
+
+**Fenêtre modale (`<dialog>`)** — Une fenêtre qui s'ouvre par-dessus la page : tant qu'elle est ouverte, le reste passe sous un voile et ne réagit plus.
+
+**`:has()`** — Un sélecteur CSS récent qui veut dire « si l'élément contient… ». Exemple : « si la page contient une fenêtre ouverte, cache tel bouton ».
+
+**`color-scheme`** — Une propriété CSS qui dit au navigateur si la page est claire ou sombre, pour qu'il dessine les cases, listes et barres de défilement dans les bonnes couleurs.
+
+**`appearance: none`** — Une instruction CSS qui retire le dessin d'un élément de formulaire par le système (une case à cocher, par exemple), pour le dessiner soi-même.
+
+**`aria-expanded`** — Un attribut qui dit au lecteur d'écran si un bouton « Afficher plus » est ouvert ou fermé.
+
+**Flexbox** — Une façon de ranger des éléments en ligne ou en colonne en CSS. La règle `flex: 1` dit « prends toute la place qui reste ».
+
+**Droit de courte citation** — L'exception au droit d'auteur qui permet de citer un court extrait dans une analyse, avec sa source. Recopier tout un résumé officiel va au-delà : c'est toléré en pratique, pas garanti.
+
