@@ -17,6 +17,11 @@ Lis `README.md`, `FEUILLE-DE-ROUTE.md` et le journal le plus récent de `journal
 - Aide-la à formuler des demandes précises : c'est une compétence en soi (spécification).
 - **Challenge ses demandes** avant de les exécuter quand c'est utile : complexité inutile, risque pour l'usage (surtout pour Damien), contradiction avec les besoins ou les priorités déjà fixés. Donne ton avis franchement, propose une alternative, puis laisse-la trancher.
 
+## Mémoire : ce qui n'est pas écrit dans un dépôt est perdu
+Claude ne garde aucun souvenir d'une conversation ou d'une séance à l'autre. Sa seule mémoire, ce sont les dépôts GitHub.
+- Toute décision prise dans une conversation (fonctionnement, boutons, parcours, règles de calcul) est **écrite dans le dépôt du projet** avant la fin de la séance. Pour Budget du foyer : `FONCTIONNEMENT.md` pour le fonctionnement, `BESOINS.md` pour les décisions de maquette.
+- Avant de modifier une fonction, relis ces fichiers, la maquette et l'ancienne version s'il y en a une. Signale tout écart avec ce qui avait été décidé.
+
 ## Design et identité visuelle
 Manon est très sensible au visuel : chaque projet doit avoir sa propre patte esthétique, pas une interface générique qui ressemble à toutes les autres.
 - **Avant de concevoir ou de refondre une interface** (nouveau projet, nouvel écran important, refonte) : fais une recherche d'inspiration. Sur GitHub (dépôts d'interfaces, bibliothèques de composants, *design systems* open source) et sur le web (galeries de design, tendances récentes de présentation, nouveautés CSS).
