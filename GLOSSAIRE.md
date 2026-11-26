@@ -309,7 +309,7 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **CDN (Content Delivery Network)** — Un réseau de serveurs répartis dans le monde qui gardent une copie des fichiers du site : chaque visiteur est servi par le plus proche, donc plus vite, et la charge est partagée.
 
-**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA utilisable sans réseau.
+**Service worker** — Un petit script qu'un site installe dans le navigateur. Il intercepte les demandes de fichiers et peut répondre depuis le cache : c'est ce qui rend une PWA (ou une appli web) utilisable sans réseau. Il ne recharge les fichiers que si son numéro de version change.
 
 **PWA (Progressive Web App)** — Un site qui se comporte comme une appli : il s'installe sur l'écran d'accueil et fonctionne hors-ligne, sans passer par un store.
 
@@ -344,8 +344,6 @@ Les mots techniques, dans l'ordre où je les ai appris.
 **`aria-expanded`** — Un attribut qui dit au lecteur d'écran si un bouton « Afficher plus » est ouvert ou fermé.
 
 **Flexbox** — Une façon de ranger des éléments en ligne ou en colonne en CSS. La règle `flex: 1` dit « prends toute la place qui reste ».
-
-**Service worker (cache hors-ligne)** — Un petit programme qui garde une copie de l'appli sur le téléphone pour qu'elle marche sans connexion. Il ne recharge les fichiers que si son numéro de version change.
 
 **Droit de courte citation** — L'exception au droit d'auteur qui permet de citer un court extrait dans une analyse, avec sa source. Recopier tout un résumé officiel va au-delà : c'est toléré en pratique, pas garanti.
 
