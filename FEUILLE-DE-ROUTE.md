@@ -29,6 +29,8 @@ Projet fil rouge : la refonte de l'appli *Budget du foyer*.
 - [x] Revue UX d'une appli : mesurer, prioriser, corriger (et résoudre un conflit de fusion)
 - [x] Recueillir des retours en commentaires sur une maquette, les traiter un par un et livrer par pull request *(Biblio VSS, 24/11)*
 - [x] Vérifier des contenus rédigés par une IA contre leurs sources *(58 résumés de Biblio VSS, 24/11)*
+- [x] Mesurer une interface avant de décider (règle 60-30-10, captures et comptage des couleurs) *(Biblio VSS, 27/11)*
+- [x] Ouvrir un outil à un nouveau public sans le diluer (espace « Vous êtes un proche ») *(Biblio VSS, 27/11)*
 
 ## Palier 3 — La ligne de commande et Linux
 - [ ] Le terminal : naviguer, créer, lire des fichiers

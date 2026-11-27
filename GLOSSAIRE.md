@@ -347,3 +347,17 @@ Les mots techniques, dans l'ordre où je les ai appris.
 
 **Droit de courte citation** — L'exception au droit d'auteur qui permet de citer un court extrait dans une analyse, avec sa source. Recopier tout un résumé officiel va au-delà : c'est toléré en pratique, pas garanti.
 
+## Couleurs, contenus et proches (27 novembre)
+
+**Règle 60-30-10** — Un repère de design : 60 % de couleur de fond, 30 % d'une nuance de ce fond, 10 % d'une seule couleur de marque pour ce qui doit attirer l'œil. Une aide pour choisir, pas une loi.
+
+**Media query (`@media`)** — Une règle CSS qui ne s'applique que dans certaines conditions : largeur de l'écran, ou réglage clair / sombre du téléphone (`prefers-color-scheme`).
+
+**`theme-color`** — Une balise qui donne la couleur de la barre d'état du téléphone (l'heure, la batterie) quand le site est ouvert, pour l'assortir au fond.
+
+**Pixel** — Le plus petit point d'une image ou d'un écran. Compter les pixels de chaque couleur sur une capture permet de mesurer la place qu'elle occupe.
+
+**Autorité de droit ou de fait** — En droit, l'autorité « de droit » vient d'un statut (parent, tuteur) ; l'autorité « de fait » vient de la situation (un aîné qui garde les plus petits, un chef de groupe). Elle peut constituer la contrainte dans un viol ou une agression sexuelle.
+
+**Victime par ricochet** — Un proche touché à son tour par ce qu'a subi la victime : choc, colère, impuissance. Il a le droit d'être aidé, lui aussi.
+
